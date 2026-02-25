@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # GCP Bucket Scanner: Unauthenticated GCS Object Tally
 
 ### The Background
@@ -24,4 +23,3 @@ This script uses the GCS XML API to paginate through public buckets without requ
 
 ### Installation and Usage
 To get started, clone the repository using `git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git` and navigate into the directory with `cd YOUR_REPO_NAME`. Install the necessary dependencies by running `pip install requests urllib3`. Before executing the scanner, ensure you have a file named `buckets.txt` in the root directory containing the names of the target buckets (one per line). Finally, run the scanner using the command `python3 gcp_bucket_scanner.py`. The script will output the results to the terminal and generate a timestamped text report automatically.
-EOF
